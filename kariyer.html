@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Ali Mert KOCAMAN">
+    <title>Kariyer</title>
+    <style>
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 80px rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+
+
+        ::-webkit-scrollbar-thumb {
+            background-image: url(./Images/scroll-bar.jpg);
+            border-radius: 10px;
+        }
+
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(148, 93, 22);
+            
+        }
+
+        body {
+            background-image: url("./Images/background.jpg");
+        }
+
+        #logo {
+            width: 20%;
+        }
+
+        ul.navbar li {
+            float: left;
+
+        }
+
+        ul.navbar li a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%
+        }
+
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(22, 103, 150);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            border-bottom: rgb(243, 134, 10) 2px;
+        }
+
+        li a:hover {
+            background-color: rgb(53, 247, 230);
+        }
+
+
+
+        #isim {
+            color: whitesmoke;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+                sans-serif;
+        }
+
+        #tablo1 {
+            border: 2px solid white;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            background-color: rgb(1, 43, 43);
+            text-align: center;
+        }
+
+        .buton {
+            width: 20%;
+        }
+
+        #tablo2 {
+            margin: auto;
+            width: 65%;
+            border: 2px solid white;
+            background-color: rgb(1, 43, 43);
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            ul.navbar li {
+                float: none;
+                width: 100%;
+            }
+            #logo{
+                width: 50%;
+            }
+            #tablo2{
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body align="center">
+    <div>
+        <header align="center">
+            <a href="index.html"><img id="logo" src="./Images/logo.jpg" alt="LOGO"></a>
+            <h1 style="color: rgb(255, 255, 255);" id="isim">
+                <strong >𝕾𝖕𝖆𝖈𝖊𝕮𝖗𝖆𝖋𝖙𝖘</strong></h1>
+        </header>
+    </div>
+    <div>
+        <nav>
+            <ul class="navbar">
+                <li class="buton"><a href="index.html">Anasayfa</a></li>
+                <li class="buton"><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                <li class="buton"><a href="kurumsal.html">Kurumsal</a></li>
+                <li class="buton"><a href="kariyer.html">Kariyer</a></li>
+                <li class="buton" id="iletisim"><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
+    <table id="tablo2">
+        <tr>
+            <td style="border: 2px solid white; border-top-right-radius: 30px; 
+            border-top-left-radius: 30px;">
+                <br>
+                <img style="width: 90%;" src="./Images/resim2.jpg" alt="">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid white; color: white; width: 50%;border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;"> <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius molestiae voluptatum
+                sequi similique quas id nesciunt numquam voluptatem, quasi labore? Necessitatibus
+                asperiores non voluptatibus, eveniet labore corporis nam debitis atque aspernatur ipsa
+                magni maiores, ipsum earum voluptate sapiente officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. <br><br><br>
+            </td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table id="tablo2">
+        <tr>
+            <td style="border: 2px solid white; border-top-right-radius: 30px; 
+            border-top-left-radius: 30px;">
+                <br>
+                <img style="width: 90%;" src="./Images/resim3.jpg" alt="">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid white; color: white; width: 50%; border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;"> <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius molestiae voluptatum
+                sequi similique quas id nesciunt numquam voluptatem, quasi labore? Necessitatibus
+                asperiores non voluptatibus, eveniet labore corporis nam debitis atque aspernatur ipsa
+                magni maiores, ipsum earum voluptate sapiente officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Itaque, molestiae! <br><br><br>
+            </td>
+        </tr>
+
+    </table>
+    <br><br><br>
+    <table id="tablo2">
+        <tr>
+            <td style="border: 2px solid white; border-top-right-radius: 30px; 
+            border-top-left-radius: 30px;">
+                <br>
+                <img style="width: 90%;" src="./Images/resim4.jpg" alt="">
+                <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid white; color: white; width: 50%;border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;"> <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius molestiae voluptatum
+                sequi similique quas id nesciunt numquam voluptatem, quasi labore? Necessitatibus
+                asperiores non voluptatibus, eveniet labore corporis nam debitis atque aspernatur ipsa
+                magni maiores, ipsum earum voluptate sapiente officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. <br><br><br>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <div>
+        <footer id="footer">
+            <table id="tablo1">
+                <tr>
+                    <th style="color: white;"><br>
+                        Copyright © - Tüm hakları SpaceCrafts marka lisansına sahip yetkililere ve
+                        firmalara aittir. Yazılı izin olmadıkça kullanılamaz. <br><br>
+                        <a target="_blank" title="Facebook" href="https://www.facebook.com/">
+                            <img src="./Images/facebooklogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                        <a target="_blank" title="Instagram" href="https://www.instagram.com/?hl=tr"><img
+                                src="./Images/instagramlogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                        <a target="_blank" title="Twitter" href="https://twitter.com/login?lang=tr"><img
+                                src="./Images/twitterlogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                        <br><br>
+                    </th>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+
+</html>

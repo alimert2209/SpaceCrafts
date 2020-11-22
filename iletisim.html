@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Ali Mert KOCAMAN">
+    <title>İletişim</title>
+    <style>
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 80px rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+
+
+        ::-webkit-scrollbar-thumb {
+            background-image: url(./Images/scroll-bar.jpg);
+            border-radius: 10px;
+        }
+
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(148, 93, 22);
+            
+        }
+        
+
+        body {
+            background-image: url("./Images/background.jpg");
+        }
+
+        #logo {
+            width: 20%;
+        }
+
+        ul.navbar li {
+            float: left;
+
+        }
+
+        ul.navbar li a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(22, 103, 150);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            border-bottom: rgb(243, 134, 10) 2px;
+        }
+
+        li a:hover {
+            background-color: rgb(53, 247, 230);
+        }
+
+        
+
+        #isim {
+            color: whitesmoke;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+                sans-serif;
+        }
+
+        #tablo1 {
+            border: 2px solid white;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            background-color: rgb(1, 43, 43);
+            text-align: center;
+        }
+
+        .buton {
+            width: 20%;
+        }
+
+        #tablo2 {
+            border: 2px solid white;
+            margin: auto;
+            background-color: rgb(1, 43, 43);
+            width: 70%;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+            ul.navbar li {
+                float: none;
+                width: 100%;
+            }
+            #logo{
+                width: 50%;
+            }
+            #tablo2{
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body align="center">
+    <div>
+        <header align="center">
+            <a href="index.html"><img id="logo" src="./Images/logo.jpg" alt="LOGO"></a>
+            <h1 style="color: rgb(255, 255, 255);" id="isim">
+                <strong>𝕾𝖕𝖆𝖈𝖊𝕮𝖗𝖆𝖋𝖙𝖘</strong></h1>
+        </header>
+    </div>
+    <div>
+        <nav>
+            <ul class="navbar">
+                <li class="buton"><a href="index.html">Anasayfa</a></li>
+                <li class="buton"><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+                <li class="buton"><a href="kurumsal.html">Kurumsal</a></li>
+                <li class="buton"><a href="kariyer.html">Kariyer</a></li>
+                <li class="buton" id="iletisim"><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
+
+    <div>
+        <table id="tablo2" style="color: white;">
+            <tr>
+                <th colspan="2" style="border: 2px solid white; border-top-left-radius: 30px;
+                border-top-right-radius: 30px;">
+                    <br><u><b>
+                            <h2>İLETİŞİM BİLGİLERİMİZ:</h2>
+                        </b></u> <br><br>
+                </th>
+            </tr>
+            <tr>
+                <td style="border: 2px solid white; width: 50%;">
+                    <br><b><u>Telefon Numaralarımız:</u> </b> <br><br>
+                    0 312 999 99 99 <br>
+                    0 312 999 99 98 <br>
+                    0 312 999 99 97 <br><br>
+
+                </td>
+                <td style="border: 2px solid white;">
+                    <b><u>Faks:</u></b> <br><br>
+                    +90 312-123-45-67
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="border: 2px solid white; border-bottom-right-radius: 30px;
+                border-bottom-left-radius: 30px;">
+                    <br><b><u>E-mail:</u></b> <br><br>
+                    <a style="color: white;" href="">iletisim@spacecrafts.com </a> <br>
+                    <a style="color: white;" href="">destek@spacecrafts.com</a> <br>
+                    <a style="color: white;" href="">spacecrafts.iletisim@gmail.com</a>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid white; border-top-left-radius: 30px; 
+                border-top-right-radius: 30px; border-bottom-left-radius: 30px; 
+                border-bottom-right-radius: 30px;" colspan="3">
+                    <br><br><b><u style="font-size: 20px;">ADRESİMİZ</u></b> <br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.773083318118!2d32.
+                        84763988314937!3d39.782950318202694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1
+                        s0x14d34186cd4d979f%3A0x147a11a34ac6b5b8!2zR8O2bGJhxZ_EsSwgQW5rYXJh!5e1!3m2!1str!2str!
+                        4v1605906455049!5m2!1str!2str" width="90%" height="300%" frameborder="0" style="border:0;"
+                        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div>
+        <footer id="footer">
+            <table id="tablo1">
+                <tr>
+                    <th style="color: white;"><br>
+                        Copyright © - Tüm hakları SpaceCrafts marka lisansına sahip yetkililere ve
+                        firmalara aittir. Yazılı izin olmadıkça kullanılamaz. <br><br>
+                        <a target="_blank" title="Facebook" href="https://www.facebook.com/">
+                            <img src="./Images/facebooklogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                        <a target="_blank" title="Instagram" href="https://www.instagram.com/?hl=tr"><img
+                                src="./Images/instagramlogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                        <a target="_blank" title="Twitter" href="https://twitter.com/login?lang=tr"><img
+                                src="./Images/twitterlogo.jpg" alt="Simge bulunamadı." width="30"></a>
+                                <br><br>
+                    </th>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+
+</html>
